@@ -1,0 +1,17 @@
+[package]
+name = "asar"
+version = "1.2.0"
+authors = ["Ceka"]
+description = "A tool to manipulate asar archive file"
+edition = "2024"
+
+[dependencies]
+clap = "2"
+serde_json = "1.0"
+glob = "0.3"
+
+[profile.release]
+lto = true
+codegen-units = 1
+panic = 'abort'
+strip = true
