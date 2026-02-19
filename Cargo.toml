@@ -1,6 +1,6 @@
 [package]
 name = "asar"
-version = "1.2.0"
+version = "1.2.1"
 authors = ["Ceka"]
 description = "A tool to manipulate asar archive file"
 edition = "2024"
